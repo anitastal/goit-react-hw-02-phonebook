@@ -21,6 +21,13 @@ export class ContactList extends Component {
   }
 }
 ContactList.propTypes = {
-  onFilterContacts: PropTypes.arrayOf(PropTypes.node),
+  onFilterContacts: PropTypes.arrayOf(
+    PropTypes.shape({
+      number: PropTypes.string,
+      name: PropTypes.string,
+      key: PropTypes.string,
+      id: PropTypes.string,
+    })
+  ),
   deleteUser: PropTypes.func,
 };
