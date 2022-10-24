@@ -19,4 +19,5 @@ export class Filter extends Component {
 }
 Filter.propTypes = {
   onChangeName: PropTypes.func,
+  filter: PropTypes.string,
 };
