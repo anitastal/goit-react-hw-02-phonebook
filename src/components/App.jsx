@@ -4,7 +4,6 @@ import { Filter } from './Filter/Filter';
 import { ContactList } from './ContactList/ContactList';
 
 import { nanoid } from 'nanoid';
-import PropTypes from 'prop-types';
 
 export class App extends Component {
   state = {
